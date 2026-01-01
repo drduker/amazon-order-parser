@@ -1,0 +1,23 @@
+{
+  "name": "amazon-order-parser",
+  "version": "1.0.0",
+  "description": "Parse and categorize Amazon order history into CSV files",
+  "main": "parse_orders.js",
+  "scripts": {
+    "login": "node login.js",
+    "download": "node download_orders.js",
+    "parse": "node parse_orders.js"
+  },
+  "keywords": [
+    "amazon",
+    "orders",
+    "parser",
+    "csv",
+    "export"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "playwright": "^1.40.0"
+  }
+}
